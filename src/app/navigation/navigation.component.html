@@ -1,0 +1,7 @@
+<mat-toolbar color="primary">
+  <a mat-button routerLink="/">My App</a>
+  <span class="spacer"></span>
+  <a mat-button *ngFor="let tab of authorizedTabs" [routerLink]="tab.link">{{ tab.name }}</a>
+  <a mat-button (click)="logout()">Logout</a>
+</mat-toolbar>
+  

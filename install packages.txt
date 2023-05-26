@@ -1,0 +1,15 @@
+
++ New component
+ng generate component xyz
+
++ Angular Material
+ng add @angular/material
+
+
+npm install @angular/cdk  @angular/animations
+
+
+ng generate component navigation
+ng generate component login
+
+ng generate service auth
